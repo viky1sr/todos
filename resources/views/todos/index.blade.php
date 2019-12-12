@@ -11,7 +11,7 @@
                 <div class="card card-default">
                     <div class="card-header">
                             Todos
-                            <a href="/todos/delete-all" class="btn btn-danger float-right btn-sm">Delete all</a>
+                            <a href="{{route('delete.all')}}" class="btn btn-danger float-right btn-sm">Delete all</a>
 
                     </div>
                     <div class="card-body">

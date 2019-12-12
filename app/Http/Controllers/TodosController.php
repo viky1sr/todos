@@ -92,6 +92,6 @@ class TodosController extends Controller
     public function destroyAll()
     {
         Todo::query()->delete();
-        return view('/todos');
+        return redirect()->back()->with('sukses','Data berhasil di hapus');
     }
 }
